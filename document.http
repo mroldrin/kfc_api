@@ -1,0 +1,15 @@
+POST http://localhost:4004/document HTTP/1.1
+content-type: application/json
+
+{
+    "title": "NOVO #04",
+    "squadId": 2,
+    "tags":[]
+}
+
+
+###
+GET  http://localhost:4004/document HTTP/1.1
+
+###
+DELETE http://localhost:4004/document/3

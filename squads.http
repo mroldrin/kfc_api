@@ -1,0 +1,13 @@
+POST http://localhost:4004/squad HTTP/1.1
+content-type: application/json
+
+{
+    "title": "Marketplace"
+}
+
+
+###
+GET  http://localhost:4004/squad HTTP/1.1
+
+###
+DELETE http://localhost:4004/squad/3

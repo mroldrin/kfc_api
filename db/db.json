@@ -1,0 +1,39 @@
+{
+  "tag": [
+    {
+      "id": 1,
+      "title": "ME OFF"
+    },
+    {
+      "id": 2,
+      "title": "RFC"
+    }
+  ],
+  "squad": [
+    {
+      "id": 1,
+      "title": "Carriers"
+    },
+    {
+      "title": "Marketplace",
+      "id": 2
+    }
+  ],
+  "document": [
+    {
+      "id": 1,
+      "title": "[RFC] 001 - Shipping Calculator (Simulador)",
+      "squadId": 1,
+      "tags": [
+        1,
+        2
+      ]
+    },
+    {
+      "title": "NOVO #04",
+      "squadId": 2,
+      "tags": [],
+      "id": 2
+    }
+  ]
+}
